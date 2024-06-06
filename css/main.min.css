@@ -129,8 +129,9 @@ section{
     background-color:rgba(45,50,65,0.83);
     border-radius:8px
 }
-.list-main .brand-name{
-    max-width:155px
+.list-item .brand-logo img {
+    max-width: 155px;
+    height: auto;
 }
 .list-title{
     color:#fff;
@@ -154,7 +155,8 @@ section{
 }
 @media (min-width: 768px){
     .list-item .brand-logo img{
-        max-width:155px
+        max-width:155px;
+        height: auto;
     }
 }
 .list-item .notes{
@@ -496,37 +498,6 @@ body .modal-backdrop.show{
 	border-width: 0 0 5px 10px;
 }
 
-
-@-webkit-keyframes flow {
-	0% { left:-20px;opacity: 0;}
-	50% {left:50px;opacity: 0.3;}
-    100%{ left:120px;opacity: 0;}
-}
-@keyframes flow {
-	0% { left:-20px;opacity: 0;}
-	50% {left:50px;opacity: 0.3;}
-    100%{ left:120px;opacity: 0;}
-}
-
-.glow{ 
-    background: rgb(255,255,255); 
-    width:40px; 
-    height:100%; 
-    z-index:999; 
-    position:absolute;
-    -webkit-animation: flow 1.5s linear infinite;
-    -moz-animation: flow 1.5s linear infinite;
-    -webkit-transform: skew(20deg);
-	-moz-transform: skew(20deg);
-	-o-transform: skew(20deg);background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 1%, rgba(255,255,255,1) 100%); 
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(1%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); 
-    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); 
-    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
-    border-left:1px solid #fff;
-}
 
 
 @media only screen and (max-width: 600px) {

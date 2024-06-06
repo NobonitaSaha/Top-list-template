@@ -45,7 +45,8 @@ body{
     background-repeat:no-repeat;
     background-color:#13161f !important;
     font-family:"Poppins",sans-serif !important;
-    position:relative
+    position:relative;
+    overflow-x: hidden;
 }
 body .small{
     font-size:8px;
@@ -526,6 +527,23 @@ body .modal-backdrop.show{
 
     .btn.btn-primary {
         max-width: 135px;
+    }
+    
+    div#page {
+        overflow-x: hidden;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .footer-txt h2 {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 28px;
     }
 }
 

@@ -188,8 +188,9 @@ section{
         font-size:18px
     }
 }
-.list-item img.star{
-    width:15px
+.list-item img.star {
+    width: 16px;
+    height: auto;
 }
 @media (min-width: 992px){
     .list-item img.star{
@@ -579,8 +580,7 @@ body .modal-backdrop.show{
 }
 
 
-
-@media only screen and (max-width: 1400px) and (min-width: 1365px){
+@media only screen and (min-width: 869px) {
     .item-sco.col-6.col-sm-3.text-center.d-none.d-md-block {
         width: 20%;
     }
@@ -604,4 +604,3 @@ body .modal-backdrop.show{
         width: 18%;
     }
 }
-
